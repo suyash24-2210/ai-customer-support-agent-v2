@@ -1,0 +1,8 @@
+langgraph
+langgraph-checkpoint-sqlite
+langchain
+langchain-groq
+pydantic
+python-dotenv
+sentence-transformers
+fastapi[standard]

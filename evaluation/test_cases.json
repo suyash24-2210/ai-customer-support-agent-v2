@@ -1,0 +1,58 @@
+[
+  {
+    "message": "I was charged twice for the same purchase",
+    "expected_category": "billing",
+    "expected_intent": "refund",
+    "expected_article": "article_001",
+    "expected_human_review": true
+  },
+  {
+    "message": "My payment keeps failing",
+    "expected_category": "billing",
+    "expected_intent": "payment_problem",
+    "expected_article": "article_002",
+    "expected_human_review": true
+  },
+  {
+    "message": "The app crashes every time I open it",
+    "expected_category": "technical",
+    "expected_intent": "software_issue",
+    "expected_article": "article_003",
+    "expected_human_review": true
+  },
+  {
+    "message": "I am not receiving my password reset email",
+    "expected_category": "technical",
+    "expected_intent": "password_help",
+    "expected_article": "article_004",
+    "expected_human_review": true
+  },
+  {
+    "message": "Where is the package I ordered?",
+    "expected_category": "delivery",
+    "expected_intent": "delivery_status",
+    "expected_article": "article_005",
+    "expected_human_review": false
+  },
+  {
+    "message": "My account is locked and I cannot log in",
+    "expected_category": "account",
+    "expected_intent": "account_access",
+    "expected_article": "article_006",
+    "expected_human_review": true
+  },
+  {
+    "message": "Someone hacked my account and changed my email",
+    "expected_category": "account",
+    "expected_intent": "account_access",
+    "expected_article": "article_007",
+    "expected_human_review": true
+  },
+  {
+    "message": "Can you tell me how customer support works?",
+    "expected_category": "general",
+    "expected_intent": "information_request",
+    "expected_article": "article_008",
+    "expected_human_review": false
+  }
+]

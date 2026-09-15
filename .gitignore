@@ -1,0 +1,32 @@
+# Environment variables
+.env
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# SQLite / LangGraph checkpoints
+*.db
+*.db-shm
+*.db-wal
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build / package files
+dist/
+build/
+*.egg-info/
+
+# Test / cache files
+.pytest_cache/
